@@ -1,7 +1,15 @@
 #mainframe {
-  background-color: teal
+  background-color: teal;
 }
 
 #footer {
-  background-color: blue
+  background-color: blue;
+}
+
+#next {
+  margin-right: 80px;
+}
+
+#previous {
+  margin-left: 80px;
 }
