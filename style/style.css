@@ -1,9 +1,14 @@
 #mainframe {
   background-color: teal;
+  text-align: center;
+  height: 500px;
+  width: 800px;
 }
 
 #footer {
   background-color: blue;
+  width: 800px;
+  height: 100px;
 }
 
 #next {
@@ -13,3 +18,16 @@
 #previous {
   margin-left: 80px;
 }
+
+#picframe {
+  z-index: -1;
+  background-color: white;
+  /*width: 600px;
+  height: 200px;*/
+}
+
+#wordframe {
+  margin-top: 20px;
+  text-align: center;
+}
+

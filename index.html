@@ -44,23 +44,28 @@
 
   <!-- mainframe container -->
   <div class="container" id="mainframe">
+    <h1>Pick a proper gender for this item!</h1>
 
     <!-- container with a row of pictures -->
-    <div class="row">
-      <div class="span8">
+    <div class="row-fluid" id="picframe">
+      <div class="span2">...</div>
+      <div class="span4">
         <text>Picture row</text>
       </div>
+      <div class="span2">...</div>
     </div>
 
     <!-- container with a word -->
-    <div class="row">
-      <div class="span8">
-        <text>Word</text>
+    <div class="row" id="wordframe">
+      <div class="span4">
+        <div class="well col-lg-4 col-lg-offset-4">
+          <text>Word</text>
+          </div>
       </div>
     </div>
 
     <!-- container with variants buttons at the bottom -->
-    <div class="row">
+    <div class="row" id="buttonframe">
       <div class="span8">
         <div class="btn-group">
           <button class="btn btn-info">Left</button>
@@ -71,7 +76,7 @@
     </div>
 
     <!-- container with arrow buttons -->
-    <div class="row">
+    <div class="row" id="arrowframe">
       <div class="span8">
         <ul class="pager">
           <li class="previous">
